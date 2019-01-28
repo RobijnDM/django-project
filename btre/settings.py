@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'listings.apps.ListingsConfig',
     'realtors.apps.RealtorsConfig',
     'accounts.apps.AccountsConfig',
+    'contacts.apps.ContactsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -84,9 +85,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'btre',
         'USER': 'postgres',
-        'PASSWORD': 'Chuck181',
+        'PASSWORD': 'neki123@',
         'HOST': 'localhost',
-        'PORT': '5433'
+        'PORT': '5432'
     }
 }
 
