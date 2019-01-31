@@ -85,9 +85,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'btre',
         'USER': 'postgres',
-        'PASSWORD': 'neki123@',
+        'PASSWORD': 'Chuck181',
         'HOST': 'localhost',
-        'PORT': '5432'
+        'PORT': '5433'
     }
 }
 
@@ -144,3 +144,9 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_USE_TLS= True
